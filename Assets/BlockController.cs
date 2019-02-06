@@ -19,6 +19,7 @@ public class BlockController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        // ブロックに何かが衝突したら、ブロックを消す
         Destroy(gameObject);
     }
 }
