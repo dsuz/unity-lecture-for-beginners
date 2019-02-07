@@ -5,7 +5,7 @@ using UnityEngine;
 public class BallController : MonoBehaviour
 {
     Rigidbody2D m_rb;
-    public Vector2 m_startDir = new Vector2(1f, 1f);
+    public Vector2 m_startDir = new Vector2(2f, 1f);
     public float m_startPower = 10f;
 
     // Use this for initialization
